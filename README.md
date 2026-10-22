@@ -2,6 +2,16 @@
 
 ReplyCraft is a full-stack AI writing assistant that helps users create personalized messages for professional situations. It generates replies based on the selected purpose, tone, length, and user-provided details.
 
+## Screenshots
+
+### Main Interface
+
+![ReplyCraft main interface](screenshots/ReplyCraft-1.PNG)
+
+### Favorites and Message History
+
+![ReplyCraft favorites and history](screenshots/ReplyCraft-2.PNG)
+
 ## Features
 
 - **AI-Powered Reply Generation:** Generate messages using the Gemini API.
