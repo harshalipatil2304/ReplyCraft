@@ -46,7 +46,7 @@ function App() {
     setReply("");
 
     try {
-      const response = await fetch( "http://localhost:8080/api/reply",
+      const response = await fetch( "https://replycraft-64tm.onrender.com/api/reply",
                                 {
                                   method: "POST",
                                   headers: {
