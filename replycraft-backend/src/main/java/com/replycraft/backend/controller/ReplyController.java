@@ -13,7 +13,10 @@ import com.replycraft.backend.service.GeminiService;
 import jakarta.validation.Valid;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://reply-craft-eight.vercel.app"
+})
 public class ReplyController {
 	private final GeminiService geminiService;
 	public ReplyController(GeminiService geminiService) {
