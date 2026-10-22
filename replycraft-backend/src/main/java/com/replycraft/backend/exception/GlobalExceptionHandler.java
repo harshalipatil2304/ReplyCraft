@@ -17,7 +17,6 @@ public class GlobalExceptionHandler {
 		ReplyResponse response = new ReplyResponse(
 				false, 
 				"The AI service is temporarily unavailable. Please try again in a minute. ");
-		
 		return ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(response);
 	}
 

@@ -15,9 +15,7 @@ import jakarta.validation.Valid;
 @RestController
 @CrossOrigin(origins = "http://localhost:5173")
 public class ReplyController {
-	
 	private final GeminiService geminiService;
-	
 	public ReplyController(GeminiService geminiService) {
 		this.geminiService = geminiService;
 	}
@@ -32,9 +30,6 @@ public class ReplyController {
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new GeminiServiceException("Failed to genarate AI reply.", e);
-		}
-		
-		
+		}	
 	}
-
 }
