@@ -1,0 +1,26 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Java and Spring Boot build output
+target/
+
+# IDE and workspace files
+.metadata/
+.idea/
+.vscode/
+.settings/
+.sts4-cache/
+.classpath
+.project
+.springBeans
+
+# Logs
+*.log
